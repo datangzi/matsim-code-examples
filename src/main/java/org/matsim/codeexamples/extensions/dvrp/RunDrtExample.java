@@ -43,7 +43,7 @@ class RunDrtExample{
 	private static final String DRT_C = "drt_C";
 
 	public static void main( String... args ) {
-		run(true, args);
+		run(false, args); // Turn false to true if oftvis should be started after the simulation
 	}
 
 	public static void run(boolean otfvis, String... args ){
