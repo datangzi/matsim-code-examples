@@ -20,7 +20,7 @@ public class RunDrtExampleTest{
 	void testMain(){
 		try{
 			RunDrtExample.run(false,
-					"scenarios/multi_mode_one_shared_taxi/multi_mode_one_shared_taxi_config.xml"
+					"scenarios/multi_mode_one_shared_taxi/berlin_drt_2_config.xml"
 					, "--config:controler.outputDirectory=" + utils.getOutputDirectory()
 					, "--config:controler.lastIteration=1");
 			{
