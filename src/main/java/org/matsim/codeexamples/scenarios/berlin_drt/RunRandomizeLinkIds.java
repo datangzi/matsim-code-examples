@@ -21,8 +21,8 @@ import java.util.Random;
 public class RunRandomizeLinkIds {
 
     public static void main(String[] args) {
-        String networkFile = "scenarios/berlin_drt/berlin_network.xml";
-        String plansFile = "scenarios/berlin_drt/berlin_drt_10_passengers_plans.xml";
+        String networkFile = "scenarios/berlin_drt/berlin-mitte_network.xml";
+        String plansFile = "scenarios/berlin_drt/berlin-mitte_drt_10_passengers_plans.xml";
 
         Config config = ConfigUtils.createConfig();
         config.network().setInputFile(networkFile);

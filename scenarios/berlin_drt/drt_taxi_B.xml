@@ -2,5 +2,5 @@
 <!DOCTYPE vehicles SYSTEM "http://matsim.org/files/dtd/dvrp_vehicles_v1.dtd">
 
 <vehicles>
-	<vehicle id="taxi_drt_B1" start_link="78" t_0="0" t_1="8000" capacity="2"/>
+	<vehicle id="taxi_drt_B1" start_link="28478" t_0="0" t_1="8000" capacity="2"/>
 </vehicles>
